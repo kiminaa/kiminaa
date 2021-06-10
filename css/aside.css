@@ -1,0 +1,64 @@
+ul {
+  list-style-type:none;
+}
+.clear {
+  clear:both;
+}
+
+#page {
+  width:1280px;
+  margin:0 auto;
+}
+
+aside {
+  width: 180px;
+  float:left;
+  margin-top:30px;
+}
+
+aside h3 {
+  margin:5px;
+  border-bottom:solid 3px #252cc0;
+}
+
+aside .col1 {
+  float:left;
+  font-size:15px;
+  color: 000000;
+}
+
+aside .col2 {
+  float:right;
+  font-size:6px;
+}
+
+aside ul {
+  margin:15px 5px 5px 5px;
+}
+
+aside li{
+  padding:8px;
+
+}
+
+aside li.selected{
+  border:0;
+  /*background-color:#252cc0;*/
+  color:#ffffff;
+}
+
+aside li.end {
+  border-bottom:solid 3px #cccccc;
+}
+
+aside #customer {
+  margin:30px 0 0 8px;
+}
+
+section {
+  width:772px;
+  height:470px;
+  float:left;
+  margin-left:26px;
+  margin-top:30px;
+}
